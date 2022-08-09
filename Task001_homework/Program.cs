@@ -3,16 +3,16 @@ int numberB = -3;
 
 if(numberA > numberB)
 {
-    Console.WriteLine("Это число большее");
+    Console.WriteLine("Max число");
     Console.WriteLine(numberA);
-    Console.WriteLine("Это число меньшее", numberB);
+    Console.WriteLine("Min число", numberB);
     Console.WriteLine(numberB);
 }
 else 
 {
-    Console.WriteLine("Это число большее", numberB);
+    Console.WriteLine("Max число", numberB);
     Console.WriteLine(numberB);
 
-    Console.WriteLine("Это число меньшее", numberA);
+    Console.WriteLine("Min число", numberA);
     Console.WriteLine(numberA);
 }
